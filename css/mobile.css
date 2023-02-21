@@ -13,7 +13,6 @@
     .nav-left{
         margin-left: 0;
     }
-    
     .about-section {
         padding: 32px 0px;
         text-align: center;
@@ -86,6 +85,7 @@
     }
     .navbar-container{
         flex-direction: row;
+        height: 65px;
     }
     .nav-right{
         flex-direction: row;
@@ -94,6 +94,10 @@
     .nav-left{
         position: relative;
         left: 20px;
+    }
+     .nav-left img{
+        height: 35px;
+        width: 35px;
     }
     .closeMenu{
         position: absolute;
